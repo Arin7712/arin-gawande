@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
-export default function Preloader({ onComplete }) {
+export default function Preloader({ onComplete } : { onComplete: () => void }) {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -19,9 +19,9 @@ export default function Preloader({ onComplete }) {
         initial={{ y: 0 }}
         animate={{ y: "-100%" }}
         transition={{ duration: 1.2, ease: [0.77, 0, 0.18, 1] }} // Smooth cubic bezier effect
-        className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black text-white text-4xl font-bold z-50"
+        className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-neutral-200 text-neutral-900 text-lg font-light z-50"
       >
-        Max Pratt
+        Arin Gawande
       </motion.div>
     )
   );
