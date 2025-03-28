@@ -42,7 +42,7 @@ const Case = () => {
             <div className="flex justify-between w-full pt-8">
               <div className="flex items-center">
                 <div className="text-sm text-zinc-500 flex items-center gap-2">
-                  → View Case Study
+                  {/* → View Case Study */}
                 </div>
               </div>
               <Button>
