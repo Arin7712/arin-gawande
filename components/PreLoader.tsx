@@ -19,7 +19,7 @@ export default function Preloader({ onComplete } : { onComplete: () => void }) {
         initial={{ y: 0 }}
         animate={{ y: "-100%" }}
         transition={{ duration: 1.2, ease: [0.77, 0, 0.18, 1] }} // Smooth cubic bezier effect
-        className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-neutral-200 text-neutral-900 text-lg font-light z-50"
+        className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-neutral-100 text-neutral-900 text-lg font-light z-50"
       >
         Arin Gawande
       </motion.div>

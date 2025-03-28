@@ -13,16 +13,16 @@ const About = () => {
                 Landing Page
             </li>
             <li>
-                Mobile App
+                Web App
             </li>
         </ul>
       </div>
       <div className='md:w-4/6 flex flex-col gap-6 order-[-1] md:order-1'>
         <div className='text-4xl'>
-            Studied Digital Design at <span className='border rounded-full px-1 border-black'>Kyiv Projector</span> Institute. And have been working in the design industry for over a decade.
+            Studying Science at <span className='border rounded-full px-1 border-black'>Loyola</span> Institute. And have been working in the development industry for about an year.
         </div>
         <div className='text-xs w-1/2 text-neutral-800'>
-        My passion for design started when I was young, and I have pursued this passion by working with a variety of clients and projects over the years. I have worked with startups, small businesses, and large corporations, creating user interfaces for websites, software applications, and mobile apps.
+        My passion for coding started when I was 15, and I have pursued this passion by working with a variety of clients and projects over the past year. I have worked with startups, small businesses, and organisations, creating user interfaces for websites and software applications.
         </div>
       </div>
     </div>

@@ -78,4 +78,8 @@ body {
   .padding{
     @apply md:px-10 px-4;
   }
+
+  .case-study-img{
+    @apply rounded-xl w-[100%] hover:scale-[0.96] duration-500 transition-all transform
+  }
 }

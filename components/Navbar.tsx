@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:block">
-        <ul className="flex gap-6 items-center text-xs font-thin">
+        <ul className="flex gap-6 items-center text-xs font-extralight absolute left-1/2 -translate-x-1/2">
           {navItems.map((item, index) => (
             <li
               key={index}

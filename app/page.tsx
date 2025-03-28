@@ -8,6 +8,8 @@ import About from "@/components/About";
 import Case from "@/components/Case";
 import Achievements from "@/components/Achievements";
 import Footer from "@/components/Footer";
+import Services from "@/components/Services";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -19,12 +21,14 @@ export default function Home() {
       <div className={`transition-opacity duration-1000 ${showContent ? "opacity-100" : "opacity-0"}`}>
         {/* Your Main Website Content */}
         <div>
-        <main>
+        <main className="bg-neutral-100">
           <Hero/>
           <Case/>
           <About/>
-      <Image src='/p6.webp'alt='img' width={10000} height={40} />
+          <Image src='/p6.webp'alt='img' width={10000} height={40} />
+          <Services/>
           <Achievements/>
+          <Contact/>
           <Footer/>
         </main>
         </div>
