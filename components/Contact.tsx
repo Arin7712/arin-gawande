@@ -5,6 +5,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { toast } from "sonner";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ const Contact = () => {
     });
     const result = await response.json();
     if (result.success) {
+        toast("Form Submitted Successfully");
       console.log(result);
     }
   }

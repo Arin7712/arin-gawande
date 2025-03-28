@@ -10,6 +10,7 @@ import Achievements from "@/components/Achievements";
 import Footer from "@/components/Footer";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
+import {Element} from 'react-scroll'
 
 export default function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -23,12 +24,27 @@ export default function Home() {
         <div>
         <main className="bg-neutral-100">
           <Hero/>
+          <Element name='portfolio'>
+<section id='portfolio'>
+
           <Case/>
+</section>
+          </Element>
+          <Element name='about'>
+            <section id='about'>
+
           <About/>
+            </section>
+          </Element>
           <Image src='/p6.webp'alt='img' width={10000} height={40} />
           <Services/>
           <Achievements/>
+          <Element name='section'>
+    <section id='contact'>
+
           <Contact/>
+    </section>
+          </Element>
           <Footer/>
         </main>
         </div>

@@ -10,6 +10,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Equal } from "lucide-react";
+import * as Scroll from 'react-scroll'
 
 const Navbar = () => {
   return (
@@ -30,7 +31,10 @@ const Navbar = () => {
                   : ""
               }`}
             >
+                              <Scroll.Link to={item.name.toLowerCase()} smooth={true} spy={true} offset={-50}>
+              
               {item.name}
+              </Scroll.Link>
             </li>
           ))}
         </ul>
@@ -47,7 +51,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="block md:hidden">
+      <div className="hidden md:hidden">
         <Sheet>
           <SheetTrigger>
           <Equal/>

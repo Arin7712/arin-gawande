@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Check } from 'lucide-react';
 import { eCommerceServices, saasDevelopmentServices, services } from '@/constants';
 import { Button } from './ui/button';
+import * as Scroll from 'react-scroll'
 
 const Services = () => {
   return (
@@ -36,9 +37,12 @@ const Services = () => {
                       ))
                     }
                 </ul>
+                <Scroll.Link to='contact' smooth={true} spy={true} offset={-50}>
                 <Button className='bg-white text-black mt-6 w-full hover:bg-white'>
+                
                   Get Started
                 </Button>
+                </Scroll.Link>
             </CardContent>
         </Card>
       </div>
@@ -57,9 +61,12 @@ const Services = () => {
                   ))
                 }
                 </ul>
+                <Scroll.Link to='contact' smooth={true} spy={true} offset={-50}>
                 <Button className='bg-white text-black mt-6 w-full hover:bg-white'>
+                
                   Get Started
                 </Button>
+                </Scroll.Link>
             </CardContent>
         </Card>
       </div>
@@ -78,9 +85,12 @@ const Services = () => {
                   ))
                 }
                 </ul>
+                <Scroll.Link to='contact' smooth={true} spy={true} offset={-50}>
                 <Button className='bg-white text-black mt-6 w-full hover:bg-white'>
+                
                   Get Started
                 </Button>
+                </Scroll.Link>
             </CardContent>
         </Card>
       </div>
