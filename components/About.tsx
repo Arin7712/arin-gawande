@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-between md:items-center w-full mt-[2rem] gap-6 md:gap-0 padding md:mt-[10rem] mb-[2rem] md:mb-[10rem]'>
+    <div className='flex flex-col md:flex-row justify-between md:items-center w-full mt-[2rem] gap-6 md:gap-0 padding md:mt-[6rem] mb-[2rem] md:mb-[6rem]'>
       <div>
         <span className='text-neutral-400 text-xs'>Some of the clients:</span>
         <ul className='text-xs flex flex-col gap-1 mt-2'>

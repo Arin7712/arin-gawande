@@ -7,7 +7,7 @@ import * as Scroll from 'react-scroll'
 
 const Services = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-between md:items-start w-full mt-[2rem] gap-6 md:gap-0 padding md:mt-[10rem] mb-[2rem] md:mb-[10rem]'>
+    <div className='flex flex-col md:flex-row justify-between md:items-start w-full mt-[2rem] gap-6 md:gap-0 padding md:mt-[6rem] mb-[2rem] md:mb-[6rem]'>
       <div>
         <span className='text-neutral-400 text-xs '>Services I offer:</span>
         <ul className='text-xs flex flex-col gap-1 mt-2'>

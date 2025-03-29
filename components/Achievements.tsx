@@ -3,7 +3,7 @@ import { achievements } from '@/constants'
 
 const Achievements = () => {
   return (
-    <div className='flex flex-col md:flex-row rounded-b-3xl justify-between md:items-start w-full mt-[2rem] gap-6 md:gap-0 padding md:mt-[10rem] mb-[2rem] md:mb-[6rem]'>      
+    <div className='flex flex-col md:flex-row rounded-b-3xl justify-between md:items-start w-full mt-[2rem] gap-6 md:gap-0 padding md:mt-[6rem] mb-[2rem] md:mb-[6rem]'>      
     <div className='text-lg text-neutral-800 md:mb-0 mb-6'>
         What clients say
       </div>

@@ -17,7 +17,7 @@ import Link from "next/link";
 
 const Case = () => {
   return (
-    <div className="padding pt-[2rem] md:pt-[10rem]">
+    <div className="padding pt-[2rem] md:pt-[6rem]">
       {/* <Image src='/m1.png' alt='image' width={10000} height={40} className='rounded-xl'/> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {
