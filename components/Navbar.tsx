@@ -10,7 +10,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Equal } from "lucide-react";
-import * as Scroll from 'react-scroll'
+import * as Scroll from "react-scroll";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -31,9 +32,13 @@ const Navbar = () => {
                   : ""
               }`}
             >
-                              <Scroll.Link to={item.name.toLowerCase()} smooth={true} spy={true} offset={-50}>
-              
-              {item.name}
+              <Scroll.Link
+                to={item.name.toLowerCase()}
+                smooth={true}
+                spy={true}
+                offset={-50}
+              >
+                {item.name}
               </Scroll.Link>
             </li>
           ))}
@@ -44,9 +49,21 @@ const Navbar = () => {
         <div className="flex flex-col items-end">
           <div className="text-xs/tight text-neutral-400">Social:</div>
           <ul className="text-xs flex gap-2">
-            <li>IG</li>
-            <li>FB</li>
-            <li>LI</li>
+            <li className="hover:cursor-pointer">
+              <Link href='https://www.instagram.com/arin.gawande/'>
+              IG
+              </Link>
+            </li>
+            <li className="hover:cursor-pointer">
+              <Link href="https://x.com/ArinX_7712">
+              TW
+              </Link>
+              </li>
+              <li className="hover:cursor-pointer">
+              <Link href="https://www.linkedin.com/in/arin-gawande-134182316/">
+              LI
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -54,32 +71,28 @@ const Navbar = () => {
       <div className="hidden md:hidden">
         <Sheet>
           <SheetTrigger>
-          <Equal/>
+            <Equal />
           </SheetTrigger>
           <SheetContent side={"top"} className="h-screen">
             <SheetHeader>
               {navItems.map((item, index) => (
                 <SheetTitle
-                key={index}
-                className={`font-light mt-6 ${item.name == "Home" ? "bg-black text-white rounded-2xl px-4 py-1.5" : ""}`}
+                  key={index}
+                  className={`font-light mt-6 ${
+                    item.name == "Home"
+                      ? "bg-black text-white rounded-2xl px-4 py-1.5"
+                      : ""
+                  }`}
                 >
-                {item.name}
+                  {item.name}
                 </SheetTitle>
               ))}
               <SheetDescription suppressHydrationWarning>
-                <div className="mt-6 text-md">
-                    Social:
-                </div>
+                <div className="mt-6 text-md">Social:</div>
                 <ul className="flex gap-6 justify-center text-black text-lg">
-                    <li>
-                        IG
-                    </li>
-                    <li>
-                        FB
-                    </li>
-                    <li>
-                        LI
-                    </li>
+                  <li>IG</li>
+                  <li>FB</li>
+                  <li>LI</li>
                 </ul>
               </SheetDescription>
             </SheetHeader>

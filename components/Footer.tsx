@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -25,9 +26,23 @@ const Footer = () => {
         © All rights reserved. 
         </div>
         <div className='flex md:flex-row flex-col gap-4 items-center'>
-            <p>Instagram</p>
-            <p>LinkedIn</p>
-            <p>Facebook</p>
+        <ul className="text-xs flex md:flex-row flex-col gap-6">
+        <li className="hover:cursor-pointer">
+              <Link href='https://www.instagram.com/arin.gawande/'>
+              Instagram
+              </Link>
+            </li>
+            <li className="hover:cursor-pointer">
+              <Link href="https://x.com/ArinX_7712">
+              Twitter
+              </Link>
+              </li>
+              <li className="hover:cursor-pointer">
+              <Link href="https://www.linkedin.com/in/arin-gawande-134182316/">
+              LinkedIn
+              </Link>
+            </li>
+            </ul>
         </div>
         <div>
         Terms of use license

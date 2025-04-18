@@ -50,6 +50,12 @@ export const caseStudy = [
         projectUrl: 'https://canvas2.netlify.app/'
     },
     {
+        projectName: 'Invozia',
+        projectDescription: 'A SaaS platform that offers a comprehensive suite of tools for businesses to manage their invoices, payments, and taxes. The website provides a user-friendly interface for managing invoices and payments, making it easy for businesses to stay compliant with tax regulations.',
+        projectImage: '/pi1.png',
+        projectUrl: 'https://invozia.vercel.app/'
+    },
+    {
         projectName: 'Quantumflux',
         projectDescription: "A software development company that specializes in creating innovative and user-friendly web applications. The website showcases the company's portfolio of projects, showcasing their expertise in web development and design.",
         projectImage: '/p3.png',
