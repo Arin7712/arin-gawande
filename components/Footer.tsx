@@ -21,7 +21,7 @@ const Footer = () => {
         <div className='text-5xl'>Get in touch</div>
       </div>
 
-      <div className='flex md:flex-row flex-col items-center gap-4 md:gap-0 justify-between text-xs'>
+      <div className='flex md:flex-row flex-col md:pt-0 pt-10  items-center gap-4 md:gap-0 justify-between text-xs'>
         <div>
         © All rights reserved. 
         </div>

@@ -47,7 +47,7 @@ const Contact = () => {
           A comprehensive solution for all of your challenges.
         </h1>
         <p className="text-sm font-light">
-          "Get in touch with us – we’re here to help!"
+          "Get in touch with me – I'm here to help!"
         </p>
         </div>
         {/* <div className="text-3xl font-light">Contact Us !</div> */}
@@ -95,7 +95,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="relative md:flex-1 flex justify-between flex-col order-[-1] md:order-1 rounded-xl p-6 md:w-auto w-full md:h-auto h-[20rem] overflow-hidden bg-[url('/p7.jpg')] bg-no-repeat bg-cover">
+      <div className="relative md:flex-1 flex justify-between flex-col order-[-1] md:order-1 rounded-xl p-6 md:w-auto w-full md:h-auto h-[20rem] overflow-hidden bg-[url('/p1.jpg')] bg-no-repeat bg-cover">
         <div className="relative">
         </div>
         
