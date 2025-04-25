@@ -44,6 +44,12 @@ export const achievements = [
 
 export const caseStudy = [
     {
+        projectName: 'Atomic',
+        projectDescription: 'A creative agency that specializes in designing and developing digital products for businesses. The website showcases the agency\'s portfolio of projects, showcasing their expertise in graphic design and web development.',
+        projectImage: '/p4.png',
+        projectUrl: 'https://multidisciplinary-convention-224909.framer.app/'
+    },
+    {
         projectName: 'Canvas',
         projectDescription: 'A fintech platform that simplifies financial management for users through an intuitive interface. The website enhances user experience with seamless budget tracking, investment management, and financial advice.',
         projectImage: '/ex5.png',
