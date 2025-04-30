@@ -50,10 +50,22 @@ export const caseStudy = [
         projectUrl: 'https://multidisciplinary-convention-224909.framer.app/'
     },
     {
+        projectName: 'Telosa',
+        projectDescription: 'Telosa is a comprehensive customer experience management tool that helps you manage your online reputation, listings, campaigns, review generation, surveys, and feedback. Now scale your reputation and convert reviews into marketing tools.',
+        projectImage: '/p6.png',
+        projectUrl: 'https://telosa.vercel.app/'
+    },
+    {
         projectName: 'Canvas',
         projectDescription: 'A fintech platform that simplifies financial management for users through an intuitive interface. The website enhances user experience with seamless budget tracking, investment management, and financial advice.',
         projectImage: '/ex5.png',
         projectUrl: 'https://canvas2.netlify.app/'
+    },
+    {
+        projectName: 'Vision',
+        projectDescription: 'Vision is an email marketing agency that specializes in creating visually appealing and engaging email campaigns. The website provides a user-friendly interface for managing email campaigns, making it easy for businesses to create and send effective marketing messages.',
+        projectImage: '/p9.png',
+        projectUrl: 'https://ads-agency-mockup.vercel.app/'
     },
     {
         projectName: 'Invozia',
