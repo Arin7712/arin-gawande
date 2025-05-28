@@ -50,6 +50,12 @@ export const caseStudy = [
         projectUrl: 'https://thescooter.ai'
     },
     {
+        projectName: 'Personal Nutrition',
+        projectDescription: 'A website that provides personalized nutrition advice based on user preferences and dietary restrictions. The website uses machine learning algorithms to analyze user data and provide tailored recommendations.',
+        projectImage: '/p11.png',
+        projectUrl: 'https://personalnutrition.vercel.app/'
+    },
+    {
         projectName: 'Atomic',
         projectDescription: 'A creative agency that specializes in designing and developing digital products for businesses. The website showcases the agency\'s portfolio of projects, showcasing their expertise in graphic design and web development.',
         projectImage: '/p4.png',
@@ -103,12 +109,6 @@ export const caseStudy = [
         projectImage: '/t2.png',
         projectUrl: 'https://momarketingagency.vercel.app/'
     },
-    {
-        projectName: 'Invoicfy',
-        projectDescription: 'A saas that specialises in automating invoicing processes. The website is designed to showcase the platform\'s capabilities and features, making it easy for users to manage their invoices and payments.',
-        projectImage: '/t3.png',
-        projectUrl: ''
-    }
 
 ]
 
