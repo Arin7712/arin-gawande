@@ -44,6 +44,12 @@ export const achievements = [
 
 export const caseStudy = [
     {
+        projectName: 'Scooter AI',
+        projectDescription: 'A sales recruiting platform that helps businesses find the right talent for their sales teams. The website provides a user-friendly interface for managing job postings, candidate profiles, and recruitment processes.',
+        projectImage: '/p10.png',
+        projectUrl: 'https://thescooter.ai'
+    },
+    {
         projectName: 'Atomic',
         projectDescription: 'A creative agency that specializes in designing and developing digital products for businesses. The website showcases the agency\'s portfolio of projects, showcasing their expertise in graphic design and web development.',
         projectImage: '/p4.png',
